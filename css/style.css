@@ -1,0 +1,170 @@
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--Cream);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: 'Fraunces', serif; */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ortalama {
+  width: 1000px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-image {
+  position: relative;
+}
+
+.content-image img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.content-text {
+  background-color: var(--White);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 50px;
+  padding-right: 90px;
+}
+
+.content-header {
+  color: var(--Dark-grayish-blue);
+  word-spacing: 10px;
+}
+
+.content-hood {
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+
+  line-height: 50px;
+}
+
+.div-II {
+  margin-top: 40px;
+}
+
+.div-III p {
+  color: var(--Dark-grayish-blue);
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 35px;
+}
+
+.div-III {
+  margin-top: 40px;
+}
+
+.div-IV {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+}
+
+.div-IV h1 {
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  color: var(--Dark-cyan);
+}
+
+.div-IV h3 {
+  text-align: center;
+  color: var(--Dark-grayish-blue);
+  text-decoration: line-through;
+  font-weight: 100;
+}
+
+.ana-fiyat {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.div-V {
+  background-color: var(--Dark-cyan);
+  color: var(--White);
+  border-radius: 15px;
+  height: 70px;
+  margin-top: 100px;
+}
+
+.div-V div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.div-V h3 {
+  width: 100%;
+}
+
+.phone {
+  display: none;
+}
+
+@media (max-width: 785px) {
+  .phone {
+    display: block;
+    width: 100%;
+  }
+
+  .phone img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-image {
+    display: none;
+  }
+
+  .ortalama {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 0;
+  }
+
+  .main-section {
+    height: 0;
+    width: 100%;
+  }
+
+  .content-text {
+    width: 100%;
+    padding: 0;
+  }
+}

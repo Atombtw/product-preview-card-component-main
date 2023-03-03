@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Atombtw/stats-preview-card-component](https://github.com/Atombtw/stats-preview-card-component)
-- Live Site URL: [https://aquamarine-clafoutis-7fa2b2.netlify.app/](https://aquamarine-clafoutis-7fa2b2.netlify.app/)
+- Solution URL: [https://github.com/Atombtw/product-preview-card-component-main](https://github.com/Atombtw/product-preview-card-component-main)
+- Live Site URL: [https://gorgeous-naiad-75c8b3.netlify.app/](https://gorgeous-naiad-75c8b3.netlify.app/)
 
 ## My process
 
